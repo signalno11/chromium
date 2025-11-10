@@ -36,7 +36,7 @@ namespace {
 // Scroll amount for each wheelscroll event.  120 is what Chrome uses on
 // Windows, Fuchsia WHEEL_DELTA, and also it roughly matches Firefox on Linux.
 // See https://crbug.com/1270089 for the detailed reasoning.
-const int kWheelScrollAmount = 120;
+const int kWheelScrollAmount = 53;
 
 const int kMinWheelButton = 4;
 const int kMaxWheelButton = 7;
